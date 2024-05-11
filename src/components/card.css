@@ -1,0 +1,51 @@
+.container_chat {
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 0;
+  /* Ocupa el 50% del ancho disponible */
+  box-sizing: border-box;
+  /* Incluye el padding y el borde en el ancho total */
+  display: flex;
+  /* Usa flexbox */
+  flex-direction: column;
+  /* Apila los elementos verticalmente */
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name_chat {
+  color: white;
+  background-color: royalblue;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.info_chat {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  margin: 5px 0;
+}
+
+.chat_content {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+
+.message_content {
+  text-align: right;
+}
+
+.time-right {
+  margin-left: auto;
+  /* Coloca este elemento a la derecha */
+  color: #aaa;
+  margin: 5px 5px;
+}
